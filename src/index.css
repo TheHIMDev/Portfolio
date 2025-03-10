@@ -1,0 +1,216 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  height: 200vh;
+  background-color: #040207;
+}
+
+@theme {
+  --color-body-500: #dddddd;
+  --color-theme-primary-500 :#8750f7;
+  --color-theme-secondary-500 : #2a1454;
+  --color-theme-color-500 : #fff;
+}
+
+:root {
+  --tj-ff-body: "Sora", sans-serif;
+  --tj-ff-heading: "Sora", sans-serif;
+  --tj-ff-russo: "Russo One", sans-serif;
+  --tj-ff-fontawesome: "Font Awesome 6 Pro";
+  --tj-body: #dddddd;
+  --tj-white: #ffffff;
+  --tj-off-white: #f6f3fc;
+  --tj-black: #000000;
+  --tj-black-2: #050709;
+  --tj-heading-primary: #102039;
+  --tj-heading-secondary: #ea1826;
+  --tj-theme-primary: #8750f7;
+  --tj-theme-secondary: #2a1454;
+  --tj-theme-accent-1: #0f0715;
+  --tj-theme-accent-2: #140c1c;
+  --tj-grey-1: #747779;
+  --tj-grey-2: #d9d9d9;
+  --tj-grey-3: #dddddd;
+  --tj-grey-4: #22272c;
+  --tj-fw-normal: normal;
+  --tj-fw-elight: 200;
+  --tj-fw-light: 300;
+  --tj-fw-regular: 400;
+  --tj-fw-medium: 500;
+  --tj-fw-sbold: 600;
+  --tj-fw-bold: 700;
+  --tj-fw-ebold: 800;
+  --tj-fw-black: 900;
+  --tj-fz-body: 16px;
+  --tj-fz-btn: 15px;
+  --tj-fz-p: 18px;
+  --tj-fz-h1: 65px;
+  --tj-fz-h2: 45px;
+  --tj-fz-h3: 30px;
+  --tj-fz-h4: 24px;
+  --tj-fz-h5: 22px;
+  --tj-fz-h6: 18px;
+  --tj-fz-sub-title: 36px;
+}
+
+
+.load-text span {
+  animation: loading 1s infinite alternate;
+}
+
+.load-text span:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.load-text span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.load-text span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.load-text span:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.load-text span:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+.load-text span:nth-child(6) {
+  animation-delay: 0.6s;
+}
+
+.load-text span:nth-child(7) {
+  animation-delay: 0.7s;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* اheader */
+
+.header {
+  background-color: #100817;
+}
+
+.sticky {
+  background: transparent;
+  margin-top: -20px;
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  position: fixed;
+  top: 0;
+  animation: bounceDown 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.sticky-Out {
+  top: 0;
+  opacity: 1;
+  animation: bounceDown 1s;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+}
+
+.header-menu ul li {
+  position: relative;
+}
+
+.header-menu ul li a {
+  display: flex;
+  color: var(--tj-white);
+  font-size: var(--tj-fz-btn);
+  font-weight: var(--tj-fw-medium);
+  text-decoration: none;
+  position: relative;
+  padding: 10px 0;
+}
+
+@media (width >= 48rem) {
+  .header .header-menu ul li a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background: var(--tj-theme-primary);
+    background: -o-linear-gradient(190deg, var(--tj-theme-secondary) 0%, var(--tj-theme-primary) 100%);
+    background: linear-gradient(260deg, var(--tj-theme-secondary) 0%, var(--tj-theme-primary) 100%);
+    bottom: 9px;
+    left: 0;
+    -webkit-transform-origin: right;
+    -ms-transform-origin: right;
+    transform-origin: right;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  }
+  
+  .header-menu ul li:hover a::before {
+    -webkit-transform-origin: left;
+    -ms-transform-origin: left;
+    transform-origin: left;
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+
+.tj-btn-primary {
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  line-height: 1;
+  text-transform: capitalize;
+  background-size: 200%;
+  width: 130px;
+  
+  background-image: linear-gradient(to right, #8750f7 0%, #2a1454 51%,#8750f7 100%);
+  border: none;
+  border-radius: 50px;
+  padding: 15px 15px;
+  transition: 0.4s;
+}
+
+.tj-btn-primary a {
+  width: 100%;
+}
+
+.tj-btn-primary:hover {
+  background-position: -100%;
+}
+
+
+@keyframes bounceDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  60% {
+    transform: translateY(5px);
+  }
+  80% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
