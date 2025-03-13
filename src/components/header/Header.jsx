@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Container from '../container/container'
 import { Link, NavLink } from 'react-router';
 import { IoCloseOutline, IoMenuOutline } from 'react-icons/io5';
+import styled from "./header.module.css"
 
 function Header() {
 
@@ -37,7 +38,7 @@ function Header() {
 
 
   return (
-    <div className={`header pt-10 pb-5 px-0 relative z-9  text-stone-50 w-full       ${isSticky ? "sticky": ""}` }>
+    <div className={`${styled.header} pt-10 pb-5 px-0 relative z-9  text-stone-50 w-full       ${isSticky ? "sticky": ""}` }>
       <Container>
         <div  className='flex relative  justify-between items-center '>
           <div className=' '>
@@ -48,7 +49,7 @@ function Header() {
 
           </div>
 
-          <div className={`header-menu w-full  ${isMenuOpen ? "absolute top-18 md:relative md:top-0 ": "hidden md:flex"}`}>
+          <div className={`${styled.headerMenu} w-full  ${isMenuOpen ? "absolute top-18 md:relative md:top-0 ": "hidden md:flex"}`}>
             <nav className='w-full flex flex-col items-center'>
                 <ul className='flex border-2 border-theme-primary-500 md:border-none bg-stone-950 md:bg-transparent rounded-lg py-15 md:py-0 w-full border-solid flex-col justify-center items-center gap-6 md:gap-12 lg:gap-16 font-semibold md:flex-row-reverse'>
                   <li > <Link to="/"> Home </Link></li>
@@ -64,7 +65,7 @@ function Header() {
 
           <div className='flex'>
                 <div className='header-button flex items-center'>
-                  <NavLink className="tj-btn-primary">Hire me</NavLink>
+                  <NavLink className={styled.HireMe}>Hire me</NavLink>
                 </div>
 
                 <div  className='ml-2 menu-icon md:hidden' onClick={toggleMenu}>
