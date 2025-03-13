@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import styled from "./preLoader.module.css"
 
 function PreLoader() {
     // Loader effect when page start
@@ -9,7 +10,7 @@ function PreLoader() {
     
     const timer = setTimeout(()=> {
       setShowLoader(false)
-    },20000)
+    },2000)
 
     return ()=> clearTimeout(timer)
 
@@ -25,7 +26,7 @@ function PreLoader() {
             </svg>
 
           <div className='preloader-heading'></div>
-              <div className="load-text text-stone-50 text-[20px] font-extralight tracking-[15px] z-20">
+              <div className={`${styled.loadText} text-stone-50 text-[20px] font-extralight tracking-[15px] z-20`}>
                 <span>L</span>
                 <span>O</span>
                 <span>A</span>
