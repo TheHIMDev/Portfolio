@@ -1,0 +1,22 @@
+.heroSubTitle {
+    font-size: var(--tj-fz-sub-title);
+    font-weight: var(--tj-fw-bold);
+    display: block;
+    margin-bottom: 10px;
+}
+  
+.heroTitle {
+    font-size: 65px;
+    background: var(--tj-theme-primary);
+    background: -webkit-gradient(linear, left top, right top, from(var(--tj-theme-primary)), to(var(--tj-white)));
+    background: -o-linear-gradient(left, var(--tj-theme-primary) 0%, var(--tj-white) 100%);
+    background: linear-gradient(to right, var(--tj-theme-primary) 0%, var(--tj-white) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+.lead {
+    max-width: 550px;
+    width: 100%;
+    margin-bottom: 0;
+}
