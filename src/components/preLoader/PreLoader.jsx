@@ -20,8 +20,8 @@ function PreLoader() {
     <>
             {
         (showLoader && (
-          <div className='preloader fixed z-10 h-screen w-full top-0 left-0 flex overflow-hidden bg-transparent justify-center items-center'>
-            <svg className='absolute top-0 w-screen h-screen fill-stone-950 ' viewBox='0 0 1000 1000' preserveAspectRatio='none'>
+          <div className='preloader fixed z-10 h-[110vh] w-full top-0 left-0 flex overflow-hidden bg-transparent justify-center items-center'>
+            <svg className='absolute top-0 w-screen h-full  fill-stone-950 ' viewBox='0 0 1000 1000' preserveAspectRatio='none'>
               <path d='M0,1005S175,955,500,995s500,5,500,5V0H0Z'></path>
             </svg>
 
