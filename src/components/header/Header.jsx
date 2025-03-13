@@ -38,7 +38,7 @@ function Header() {
 
 
   return (
-    <div className={`${styled.header} pt-10 pb-5 px-0 relative z-9  text-stone-50 w-full       ${isSticky ? "sticky": ""}` }>
+    <div className={`${styled.header} pt-10 pb-5 px-0 relative z-9  text-stone-50 w-full       ${isSticky ? styled.sticky: ""}` }>
       <Container>
         <div  className='flex relative  justify-between items-center '>
           <div className=' '>
