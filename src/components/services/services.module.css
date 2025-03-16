@@ -1,0 +1,36 @@
+.serviceSection {
+    background-color: var(--tj-black-2);
+}
+
+.servicesWidget > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.servicesWidget i {
+    font-size: 20px;
+    line-height: 1;
+    position: absolute;
+    top: 50%;
+    right: 55px;
+    -webkit-transform: translateY(-50%) rotate(90deg);
+    -ms-transform: translateY(-50%) rotate(90deg);
+    transform: translateY(-50%) rotate(90deg);
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    color: var(--tj-theme-primary);
+}
+
+.sectionTitle {
+    font-size: 45px;
+    background: var(--tj-theme-primary);
+    background: -webkit-gradient(linear, left top, right top, from(var(--tj-theme-primary)), to(var(--tj-white)));
+    background: -o-linear-gradient(left, var(--tj-theme-primary) 0%, var(--tj-white) 100%);
+    background: linear-gradient(to right, var(--tj-theme-primary) 0%, var(--tj-white) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-flex;
+    gap: 15px;
+    margin-bottom: 0;
+}

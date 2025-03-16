@@ -1,0 +1,24 @@
+import React from 'react'
+import { FiArrowUpRight } from 'react-icons/fi'
+import styled from "./serviceItem.module.css"
+
+function ServicesItem({number,title,content}) {
+  return (
+    <div className={`${styled.serviceItem} flex jus `}>
+      <div className='py-[30px] w-[35%] font-bold'>
+        <span className={styled.number}>0{number}</span>
+        <h1 className={styled.serviceTitle}>{title}</h1>
+      </div>
+      <div className='py-[30px] w-[65%] text-lg pr-20 sm:pr-25 md:pr-40 lg:pr-60 whitespace-pre-wrap '>
+        <p>{content}</p>
+      </div>
+      <i>
+        <FiArrowUpRight size={40} />
+      </i>
+      <button className={styled.serviceLink}></button>
+
+    </div>
+  )
+}
+
+export default ServicesItem
