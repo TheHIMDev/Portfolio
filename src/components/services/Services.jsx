@@ -8,7 +8,7 @@ function Services() {
   return (
     <section className={`${styled.serviceSection} my-30 text-sky-50`}>
         <Container>
-            <SectionHeader title="My Quality Services" description="We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers "></SectionHeader>
+            <SectionHeader title="My Quality Services" description="We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers "/>
 
             <div className={`${styled.servicesWidget} relative`}>
                 <ServicesItem number={"1"} title={"Responsive design"} content={"I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people"}/>
