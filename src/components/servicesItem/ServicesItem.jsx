@@ -7,12 +7,12 @@ function ServicesItem({number,title,content}) {
     <div className={`${styled.serviceItem} flex jus `}>
       <div className='py-[30px] w-[35%] font-bold'>
         <span className={styled.number}>0{number}</span>
-        <h1 className={styled.serviceTitle}>{title}</h1>
+        <h1 className={`${styled.serviceTitle} text-base sm:text-2xl md:text-3xl`}>{title}</h1>
       </div>
-      <div className='py-[30px] w-[65%] text-lg pr-20 sm:pr-25 md:pr-40 lg:pr-60 whitespace-pre-wrap '>
+      <div className='py-[30px] w-[65%] text-lg pr-2 sm:pr-25 md:pr-40 lg:pr-60 whitespace-pre-wrap '>
         <p>{content}</p>
       </div>
-      <i>
+      <i className='hidden sm:block right-5 md:right-12'>
         <FiArrowUpRight size={40} />
       </i>
       <button className={styled.serviceLink}></button>

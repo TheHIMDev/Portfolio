@@ -12,7 +12,6 @@
     line-height: 1;
     position: absolute;
     top: 50%;
-    right: 55px;
     -webkit-transform: translateY(-50%) rotate(90deg);
     -ms-transform: translateY(-50%) rotate(90deg);
     transform: translateY(-50%) rotate(90deg);
