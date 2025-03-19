@@ -1,0 +1,32 @@
+.testimonialItem {
+    background: var(--tj-theme-accent-2);
+    width: 100%;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.imageBox {
+    width: 40%;
+    max-width: 120px;
+}
+
+.imageBox img {
+    border-radius: 5px 5px 5px 125px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+  
+
+.quote {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+
+
+.testimonialItem span.designation {
+    font-size: 14px;
+    display: block;
+  }

@@ -1,0 +1,5 @@
+.triangle {
+    border-radius: 8px;
+    border-bottom: 30px solid transparent;
+    border-left:  30px solid var(--tj-theme-primary);
+  }
