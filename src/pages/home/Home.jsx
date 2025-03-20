@@ -4,6 +4,7 @@ import Services from '../../components/services/Services'
 import MySkills from '../../components/MySkills/MySkills'
 import Resume from '../../components/resume/resume'
 import ClientsStory from '../../components/clientsStory/ClientsStory'
+import Blog from '../../components/blog/blog'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <MySkills/>
       <Resume/>
       <ClientsStory/>
+      <Blog/>
     </div>
   )
 }
