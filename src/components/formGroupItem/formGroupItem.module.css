@@ -1,0 +1,25 @@
+.formGroup input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]),
+.formGroup textarea {
+  display: block;
+  width: 100%;
+  background: var(--tj-black-2);
+  border: 1px solid var(--tj-grey-4);
+  font-size: 16px;
+  line-height: 1;
+  color: var(--tj-white);
+  padding: 14px 20px;
+  border-radius: 8px;
+  transition: all 0.3s 0s ease-out;
+  outline: none;
+  height: auto;
+}
+
+.formGroup textarea {
+    height: 200px;
+    resize: none;
+}
+
+.formGroup input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]):focus,
+.formGroup textarea:focus {
+    border-color: var(--tj-theme-primary);
+}
