@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Container from '../container/container'
 import { Link } from 'react-router'
 import styled from "./footer.module.css"
+import { getLinks } from '../../services/api'
 
 function Footer() {
+  const [links, setLinks] = useState([])
+
+  useEffect(()=> {
+    getLinks().then((res) => setLinks(res))
+  },[])
   return (
     <div className={`${styled.footerArea} py-10`}>
         <Container>
@@ -14,11 +20,9 @@ function Footer() {
 
             <div className={`footer-menu w-120`}>
               <ul className={`grid sm:grid-cols-2 gap-5 `}>
-                  <li > <Link to="/"> Home </Link></li>
-                  <li> <Link to="/services"> Services </Link></li> 
-                  <li> <Link to="/works"> Works </Link></li> 
-                  <li> <Link to="/skills"> Skills </Link></li> 
-                  <li> <Link to="/contact"> Contact</Link></li>  
+                  {links.map((link) =>(
+                    <li key={link.id} > <Link to={link.link}> {link.text} </Link></li>
+                  ))}
               </ul>
             </div>
 

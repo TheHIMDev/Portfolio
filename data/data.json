@@ -7,6 +7,53 @@
         { "id": 6, "text": "Contact", "link": "/contact" }
     ],
     "heroImg" : {
-        "src":"./"
-    }
+        "src":"https://i.pinimg.com/474x/87/b3/be/87b3bebf8bcde8dfe86442f240e9e253.jpg"
+    },
+    "FunFactArea" : [
+        { "id" : 0 , "number" : "14" , "text" : "Years of Experience"},
+        { "id" : 1 , "number" : "1.5k" , "text" : "  Happy Clients"},
+        { "id" : 2 , "number" : "50+" , "text" : "Project Completed"},
+        { "id" : 4 , "number" : "95%" , "text" : "Customer Satisfaction Rate"}
+    ],
+    "ServicesItems" : [
+        {"id" : 0 , "number" : "1" , "title" : "Responsive design" , "content" : "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people"},
+        {"id" : 1 , "number" : "2" , "title" : "Performance Optimization" , "content" : "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people"},
+        {"id" : 2 , "number" : "3" , "title" : "Browser Compatibility" , "content" : "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people"},
+        {"id" : 3 , "number" : "4" , "title" : "UI/UX" , "content" : "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people"}
+    ],
+    "MySkills" : [
+        {"id" : 0 , "skillName" : "Git" , "number" : "97%" , "alt" : "Git" , "src" : "https://img.icons8.com/external-those-icons-lineal-color-those-icons/100/external-Git-social-media-those-icons-lineal-color-those-icons.png"} ,
+        {"id" : 1 , "skillName" : "Tailwind" , "number" : "82%" , "alt" : "Tailwind" , "src" : "https://img.icons8.com/fluency/100/tailwind_css.png"} ,
+        {"id" : 2 , "skillName" : "Redux" , "number" : "86%" , "alt" : "Redux" , "src" : "https://img.icons8.com/external-tal-revivo-green-tal-revivo/100/external-redux-an-open-source-javascript-library-for-managing-application-state-logo-green-tal-revivo.png"} ,
+        {"id" : 3 , "skillName" : "TypeScript" , "number" : "74%" , "alt" : "TypeScript" , "src" : "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-shadow-tal-revivo.png"} ,
+        {"id" : 4 , "skillName" : "React" , "number" : "95%" , "alt" : "React" , "src" : "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"} ,
+        {"id" : 5 , "skillName" : "JS" , "number" : "89%" , "alt" : "JS" , "src" : "https://img.icons8.com/color/100/javascript.png"} 
+
+    ],
+    "ResumeExperience" : [
+        {"id" : 0 , "time" : "2024 -  Present" , "title" : "Knowledge Acquisition" , "institue" : "" },
+        {"id" : 1 , "time" : "2024 -  Present" , "title" : "Technical Exploration" , "institue" : "" }
+    ],
+    "ResumeEducation" : [
+        {"id" : 0 , "time" : "2018 - 2021" , "title" : "Software Technology Engineering" , "institue" : "" },
+        {"id" : 1 , "time" : "2016 - 2018" , "title" : "Associate Degree in Computer Software" , "institue" : "" }
+    ],
+    "ClientsStoryItem" : [
+        {"id" : 0 , "clientName" : "Ethan Hall" , "clientDetails" : "SEO Specialist, Theme Junction" , "logoSrc" : "https://img.icons8.com/color/50/zalo.png" , "logoAlt" : "zalo" , "imageSrc" : "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" , "imageAlt" : "clientImage" , "qoute" : "“ HIM is a professional Developer he really helps my business by providing value to my business. ”"} ,
+        {"id" : 1 , "clientName" : "Aurora Thompson" , "clientDetails" : "Software Engineer" , "logoSrc" : "https://img.icons8.com/color/50/keybase2.png" , "logoAlt" : "keybase" , "imageSrc" : "https://images.unsplash.com/photo-1536896407451-6e3dd976edd1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fHBvcnRyYWl0fGVufDB8fDB8fHww" , "imageAlt" : "clientImage" , "qoute" : "“ HIM is a professional Developer he really helps my business by providing value to my business. ”"} ,
+        {"id" : 3 , "clientName" : "Gabriel Singh" , "clientDetails" : "Web Analyst" , "logoSrc" : "https://img.icons8.com/fluency/100/icue.png" , "logoAlt" : "icue" , "imageSrc" : "https://plus.unsplash.com/premium_photo-1689539137236-b68e436248de?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGVyc29ufGVufDB8fDB8fHww" , "imageAlt" : "clientImage" , "qoute" : "“ HIM is a professional Developer he really helps my business by providing value to my business. ”"} ,
+        {"id" : 4 , "clientName" : "Oliver Jensen" , "clientDetails" : "Digital Marketing Specialist" , "logoSrc" : "https://img.icons8.com/doodle/48/swiftui.png" , "logoAlt" : "swiftui" , "imageSrc" : "https://images.unsplash.com/photo-1587397845856-e6cf49176c70?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODN8fHBvcnRyYWl0fGVufDB8fDB8fHww" , "imageAlt" : "clientImage" , "qoute" : "“ HIM is a professional Developer he really helps my business by providing value to my business. ”"} ,
+        {"id" : 5 , "clientName" : "Sophia Patel" , "clientDetails" : "Webmaster" , "logoSrc" : "https://img.icons8.com/color/50/discord-logo.png" , "logoAlt" : "discord" , "imageSrc" : "https://images.unsplash.com/photo-1618835962148-cf177563c6c0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE5fHxwb3J0cmFpdHxlbnwwfHwwfHx8MA%3D%3D" , "imageAlt" : "clientImage" , "qoute" : "“ HIM is a professional Developer he really helps my business by providing value to my business. ”"} ,
+        {"id" : 6 , "clientName" : "Benjamin Santos" , "clientDetails" : "Cloud Computing Specialist" , "logoSrc" : "https://img.icons8.com/fluency/100/insidea.png" , "logoAlt" : "insidea" , "imageSrc" : "https://images.unsplash.com/flagged/photo-1595514191830-3e96a518989b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjAxfHxwb3J0cmFpdHxlbnwwfHwwfHx8MA%3D%3D" , "imageAlt" : "clientImage" , "qoute" : "“ HIM is a professional Developer he really helps my business by providing value to my business. ”"}    
+    ],
+    "blogPosts" : [
+        {"id" : 0 , "categoryName" : "Api" , "blogTitle" : "GraphQL API" , "PostCommentsNum" : "0" , "PostDate" : "Oct 01, 2024" , "blogImgSrc" : "https://nordicapis.com/wp-content/uploads/Making-Your-First-API-in-GraphQL.png" , "blogImgAlt" : "GraphQL API" ,"CategoryUrl" : "/"},
+        {"id" : 1 , "categoryName" : "Web" , "blogTitle" : "Web 3" , "PostCommentsNum" : "0" , "PostDate" : "Oct 08, 2024" , "blogImgSrc" : "https://images.unsplash.com/photo-1667422380246-3bed910ffae1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2ViJTIwM3xlbnwwfHwwfHx8MA%3D%3D" , "blogImgAlt" : "web 3" ,"CategoryUrl" : "/"},
+        {"id" : 2 , "categoryName" : "Marketing" , "blogTitle" : "Content Marketing" , "PostCommentsNum" : "0" , "PostDate" : "Oct 12, 2024" , "blogImgSrc" : "https://plus.unsplash.com/premium_photo-1663931932651-ea743c9a0144?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2ViJTIwM3xlbnwwfHwwfHx8MA%3D%3D" , "blogImgAlt" : "Content Marketing" ,"CategoryUrl" : "/" , "blogUrl" : "/"},
+        {"id" : 3 , "categoryName" : "tips" , "blogTitle" : "Speed Optimization" , "PostCommentsNum" : "0" , "PostDate" : "Oct 14, 2024" , "blogImgSrc" : "https://media.istockphoto.com/id/1322817857/photo/man-evaluating-website-loading-speed-concept-of-page-speed-optimization.webp?a=1&b=1&s=612x612&w=0&k=20&c=98DARM6cfBb_LpWWC-dTfKMevW9b-wykgVzmy4IEc7E=" , "blogImgAlt" : "Speed Optimization" ,"CategoryUrl" : "/" , "blogUrl" : "/"},
+        {"id" : 4 , "categoryName" : "Web" , "blogTitle" : "Web Programming" , "PostCommentsNum" : "0" , "PostDate" : "Oct 14, 2024" , "blogImgSrc" : "https://images.unsplash.com/photo-1669023414166-a4cc7c0fe1f5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fFdlYiUyMFByb2dyYW1taW5nfGVufDB8fDB8fHww" , "blogImgAlt" : "Web Programming" ,"CategoryUrl" : "/" , "blogUrl" : "/"},
+        {"id" : 5 , "categoryName" : "Marketing" , "blogTitle" : "Digital Marketing" , "PostCommentsNum" : "0" , "PostDate" : "Oct 16, 2024" , "blogImgSrc" : "https://plus.unsplash.com/premium_photo-1683262038148-2ac280407276?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fERpZ2l0YWwlMjBNYXJrZXRpbmd8ZW58MHx8MHx8fDA%3D" , "blogImgAlt" : "Digital Marketing" ,"CategoryUrl" : "/" , "blogUrl" : "/"},
+        {"id" : 6 , "categoryName" : "Web" , "blogTitle" : "Web Security" , "PostCommentsNum" : "0" , "PostDate" : "Oct 18, 2024" , "blogImgSrc" : "https://plus.unsplash.com/premium_photo-1674506653924-ad98c863c078?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fFdlYiUyMFNlY3VyaXR5fGVufDB8fDB8fHww" , "blogImgAlt" : "Web Security" ,"CategoryUrl" : "/" , "blogUrl" : "/"},
+        {"id" : 7 , "categoryName" : "Web" , "blogTitle" : "New Web Tech" , "PostCommentsNum" : "0" , "PostDate" : "Oct 20, 2024" , "blogImgSrc" : "https://plus.unsplash.com/premium_photo-1683288662019-c92caea8276d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fE5ldyUyMFdlYiUyMFRlY2h8ZW58MHx8MHx8fDA%3D" , "blogImgAlt" : "New Web Tech" ,"CategoryUrl" : "/" , "blogUrl" : "/"}
+    ]
 }

@@ -1,20 +1,28 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Container from '../container/container'
 import styled from "./services.module.css"
 import ServicesItem from '../servicesItem/servicesItem'
 import SectionHeader from '../sectionHeader/SectionHeader'
+import { getServicesItems } from '../../services/api'
 
 function Services() {
+  const [items , setItems] = useState([])
+
+  useEffect(() =>{
+    getServicesItems().then(res => setItems(res))
+  },[])
+
   return (
     <section className={`${styled.serviceSection} my-30 text-sky-50`}>
         <Container>
             <SectionHeader title="My Quality Services" description="We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers "/>
 
             <div className={`${styled.servicesWidget} relative`}>
-                <ServicesItem number={"1"} title={"Responsive design"} content={"I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people"}/>
-                <ServicesItem number={"2"} title={"Performance Optimization"} content={"I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people"}/>
-                <ServicesItem number={"3"} title={"Browser Compatibility"} content={"I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people"}/>
-                <ServicesItem number={"4"} title={"UI/UX"} content={"I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people"}/>
+              {
+                items.map((item) => (
+                  <ServicesItem key={item.id} number={item.number} title={item.title} content={item.content}/>
+                ))
+              }
 
             </div>
         </Container>

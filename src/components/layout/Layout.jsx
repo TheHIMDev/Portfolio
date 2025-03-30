@@ -5,12 +5,12 @@ import PreLoader from '../preLoader/PreLoader'
 
 function Layout({children}) {
   return (
-    <>
+    <div>
         <PreLoader/>
         <Header/>
         {children}
         <Footer/>
-    </>
+    </div>
   )
 }
 

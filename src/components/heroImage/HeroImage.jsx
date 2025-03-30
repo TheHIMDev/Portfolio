@@ -1,11 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styled from "./heroImage.module.css"
+import { getHeroImg } from '../../services/api'
+
+
 
 function HeroImage() {
+  const [image , setImage] = useState({});
+  
+  useEffect(() => {
+    getHeroImg().then((res)=> setImage(res))
+  },[])
   return (
     <div className='flex justify-center mb-10'>
-        <div className={`${styled.heroImageBox} text-center md:mr-16`}>
-            <img src="https://i.pinimg.com/736x/51/1d/85/511d8557855a021f55d6c0a88013ea79.jpg" className='w-107 h-115' alt="" />
+        <div className={`${styled.heroImageBox} text-center lg:mr-16`}>
+          
+          {
+            <img src={image.src} className='w-100 h-115' alt="" />
+          }
+          
         </div>
     </div>
   )

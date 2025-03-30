@@ -9,7 +9,7 @@ import Contact from '../../components/contact/Contact'
 
 function Home() {
   return (
-    <div>
+    <>
       <Hero/>
       <Services/>
       <MySkills/>
@@ -17,7 +17,7 @@ function Home() {
       <ClientsStory/>
       <Blog/>
       <Contact/>
-    </div>
+    </>
   )
 }
 

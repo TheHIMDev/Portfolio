@@ -3,13 +3,20 @@ import Container from '../container/container'
 import { Link, NavLink } from 'react-router';
 import { IoCloseOutline, IoMenuOutline } from 'react-icons/io5';
 import styled from "./header.module.css"
+import { getLinks } from '../../services/api';
 
 function Header() {
 
   const [isSticky, setSticky] = useState(false) ;
   const [isMenuOpen, setMenuOpen] = useState(false) ;
 
+  const [links , setlinks] = useState([])
+
   useEffect(()=> {
+    
+    getLinks().then((res) => setlinks(res))
+
+    
     
 
     const handelScroll = () => {
@@ -52,11 +59,9 @@ function Header() {
           <div className={`${styled.headerMenu} w-full  ${isMenuOpen ? "absolute top-18 md:relative md:top-0 ": "hidden md:flex"}`}>
             <nav className='w-full flex flex-col items-center'>
                 <ul className='flex border-2 border-theme-primary-500 md:border-none bg-stone-950 md:bg-transparent rounded-lg py-15 md:py-0 w-full border-solid flex-col justify-center items-center gap-6 md:gap-12 lg:gap-16 font-semibold md:flex-row-reverse'>
-                  <li > <Link to="/"> Home </Link></li>
-                  <li> <Link to="/services"> Services </Link></li> 
-                  <li> <Link to="/works"> Works </Link></li> 
-                  <li> <Link to="/skills"> Skills </Link></li> 
-                  <li> <Link to="/contact"> Contact</Link></li>  
+                  {links.map((link) => (
+                    <li key={link.id} > <Link to={link.link}> {link.text} </Link></li>
+                  ))} 
                 </ul>
             </nav>
 
