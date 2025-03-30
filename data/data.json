@@ -31,8 +31,8 @@
 
     ],
     "ResumeExperience" : [
-        {"id" : 0 , "time" : "2024 -  Present" , "title" : "Knowledge Acquisition" , "institue" : "" },
-        {"id" : 1 , "time" : "2024 -  Present" , "title" : "Technical Exploration" , "institue" : "" }
+        {"id" : 0 , "time" : "2023 -  Present" , "title" : "Knowledge Acquisition" , "institue" : "More Than 2 Years" },
+        {"id" : 1 , "time" : "2023 -  Present" , "title" : "Technical Exploration" , "institue" : "More Than 2 Years" }
     ],
     "ResumeEducation" : [
         {"id" : 0 , "time" : "2018 - 2021" , "title" : "Software Technology Engineering" , "institue" : "" },
