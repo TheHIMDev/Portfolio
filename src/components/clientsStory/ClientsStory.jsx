@@ -12,7 +12,7 @@ function ClientsStory() {
     getClientsStoryItem().then(res => setItems(res))
   },[])
   return (
-    <div className={`${styled.testimonialSection} mt-20 `}>
+    <div className={`${styled.testimonialSection} pt-20 `}>
         
         <Container>
             <SectionHeader title={"Clients Stories"} description={"Empowering people in a new digital journey with my super services"}></SectionHeader>

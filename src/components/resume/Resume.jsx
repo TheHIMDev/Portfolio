@@ -17,7 +17,7 @@ function Resume() {
     getResumeEducation().then(res => setEducationItems(res))
   },[])
   return (
-    <section className={`${styled.resumeSection} mt-20`}>
+    <section className={`${styled.resumeSection} pt-20`}>
       <Container>
         <div className='grid grid-cols-1 lg:flex lg:justify-evenly  text-sky-50 w-full gap-20 '>
             <ResumeBox title={"My Experience"} icon={<PiGraduationCap size={45}/>}>
