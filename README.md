@@ -37,8 +37,13 @@ Install the dependencies start the server.
 ```sh
 cd PORTFOLIO
 npm install
+```
+
+```sh
 npx json-server data/data.json -p 8001
 npm run dev  or npm start
 ```
+
+
 
 
