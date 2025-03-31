@@ -1,13 +1,44 @@
 # portfolio
 ![](src/assets/images/portfolio%20.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+This portfolio functions as a demonstration of my programming abilities. In this project, I have employed the latest technologies in web programming to showcase my skills in user interface design, interactive programming, and the development of modern applications .
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+<p dir="rtl" style="text-align: right;">
+این پورتفولیو به عنوان نمایشی از توانمندی‌های برنامه‌نویسی من عمل می‌کند. در این پروژه، از آخرین فناوری‌های برنامه‌نویسی وب استفاده کرده‌ام تا مهارت‌هایم را در طراحی رابط کاربری، برنامه‌نویسی تعاملی و توسعه اپلیکیشن‌های مدرن به نمایش بگذارم.
+</p>
+- 
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech
+
+- React
+- Css
+- Tailwind css
+- Axios
+- json server
+- react-router
+- react-icons
+
+## Installation
+
+Protfolio requires [Node.js](https://nodejs.org/) v18+ to run.
+
+Install the dependencies start the server.
+
+<p dir="rtl" style="text-align: right;">
+پورتفولیو نیازمند [Node.js](https://nodejs.org/) ورژن 18 یا بالاتر برای راه اندازی میباشد
+
+
+
+وابستگی‌ها را نصب کنید و سرور را راه‌اندازی کنید.
+</p>
+
+```sh
+cd PORTFOLIO
+npm install
+npx json-server data/data.json -p 8001
+npm run dev  or npm start
+```
+
+
