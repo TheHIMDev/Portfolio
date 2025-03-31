@@ -44,6 +44,19 @@ npx json-server data/data.json -p 8001
 npm run dev  or npm start
 ```
 
+## Screenshots
 
+Desktop
+![](src/assets/images/desktop.PNG)
+![](src/assets/images/portfolio%20.png)
+![](src/assets/images/portfolio%20.png)
+Tablet
+![](src/assets/images/portfolio%20.png)
+![](src/assets/images/portfolio%20.png)
+![](src/assets/images/portfolio%20.png)
+Mobile
+![](src/assets/images/portfolio%20.png)
+![](src/assets/images/portfolio%20.png)
+![](src/assets/images/portfolio%20.png)
 
 
