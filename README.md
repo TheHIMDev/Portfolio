@@ -46,17 +46,22 @@ npm run dev  or npm start
 
 ## Screenshots
 
-Desktop
+- Desktop
+
 ![](src/assets/images/desktop.PNG)
-![](src/assets/images/portfolio%20.png)
-![](src/assets/images/portfolio%20.png)
-Tablet
-![](src/assets/images/portfolio%20.png)
-![](src/assets/images/portfolio%20.png)
-![](src/assets/images/portfolio%20.png)
-Mobile
-![](src/assets/images/portfolio%20.png)
-![](src/assets/images/portfolio%20.png)
-![](src/assets/images/portfolio%20.png)
+![](src/assets/images/desktop2.PNG)
+![](src/assets/images/desktop3.PNG)
+
+- Tablet
+
+![](src/assets/images/tablet1.PNG)
+![](src/assets/images/tablet2.PNG)
+![](src/assets/images/tablet3.PNG)
+
+- Mobile
+
+![](src/assets/images/mobile1.PNG)
+![](src/assets/images/mobile2.PNG)
+![](src/assets/images/mobile3.PNG)
 
 
